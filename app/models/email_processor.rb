@@ -11,6 +11,6 @@ class EmailProcessor
   end
 
   def process
-    Post.create!({ body: @email.body, email: @email.from })
+    Post.create!({ body: @email.body, email: @email.from[:email] })
   end
 end
