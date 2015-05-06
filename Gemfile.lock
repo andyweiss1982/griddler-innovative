@@ -58,6 +58,8 @@ GEM
     griddler (1.1.0)
       htmlentities
       rails (>= 3.2.0)
+    griddler-sendgrid (0.0.1)
+      griddler
     htmlentities (4.3.3)
     i18n (0.7.0)
     jbuilder (2.2.13)
@@ -148,6 +150,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   griddler
+  griddler-sendgrid
   jbuilder (~> 2.0)
   jquery-rails
   pg
