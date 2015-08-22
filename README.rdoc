@@ -5,3 +5,5 @@ Test of demo at https://sendgrid.com/blog/receiving-email-in-your-rails-app-with
 Depends on sendgrid and MX settings on domain you control.
 
 Creates posts from emails sent to email address.
+
+View at: http://griddler-innovative.herokuapp.com/
